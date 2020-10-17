@@ -1,4 +1,4 @@
-const slsw = require("serverless-webpack");
+const slsw = require('serverless-webpack');
 var nodeExternals = require('webpack-node-externals');
 
 module.exports = {
