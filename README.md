@@ -23,3 +23,4 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Next.js GitHub repository](https://github.com/vercel/next.js/)
 - [Serverless Framework](https://www.serverless.com/)
+- [Structuring Serverless Framework applications](https://www.serverless.com/blog/structuring-a-real-world-serverless-app)
