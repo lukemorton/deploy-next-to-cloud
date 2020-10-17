@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Azure Functions sample for the Serverless framework",
   "scripts": {
-    "test": "echo \"No tests yet...\"",
-    "start": "../node_modules/.bin/serverless offline"
+    "start": "../node_modules/.bin/serverless offline",
+    "deploy": "../node_modules/.bin/serverless deploy"
   },
   "keywords": [
     "azure",
@@ -12,6 +12,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "serverless-azure-functions": "^2.0.0"
+    "serverless-azure-functions": "^2.0.0",
+    "serverless-webpack": "^5.3.5"
   }
 }

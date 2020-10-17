@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm --prefix ./../ test gcp-api"
+    "deploy": "../node_modules/.bin/serverless deploy"
   },
   "author": "serverless.com",
   "license": "MIT",

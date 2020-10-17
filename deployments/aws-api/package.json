@@ -5,11 +5,12 @@
   "main": "handler.js",
   "scripts": {
     "start": "../node_modules/.bin/serverless offline",
-    "test": "npm --prefix ./../ test aws-api"
+    "deploy": "../node_modules/.bin/serverless deploy"
   },
   "author": "Luke Morton",
   "license": "MIT",
   "devDependencies": {
+    "serverless-bundle": "^3.2.1",
     "serverless-offline": "^6.8.0"
   }
 }
