@@ -1,0 +1,15 @@
+{
+  "name": "@deploy-next-to-cloud/deployments-aws-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "../node_modules/.bin/serverless offline",
+    "test": "npm --prefix ./../ test aws-api"
+  },
+  "author": "Luke Morton",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^6.8.0"
+  }
+}
