@@ -17,6 +17,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+## Structure of this repository
+
+In the root directory is a Next.js project. You'll find the usual `package.json`, `pages/`, `public/`, `styles/`, etc. You'll even find an API built with Next.js in `pages/api/`. In development, all you need to care about is running Next.js in dev mode. No orchestration of cloud platforms or offline/local infrastructure is needed to develop locally. This does mean that development env is not equal to deployment target but that is the case with functions in general unless each development environment is deployed in the cloud.
+
+To deploy the application into the cloud we have a Serverless Framework application in the `deployments/` directory. [Read the README.md](deployments/README.md) there to get an understanding for how deployments work.
+
 ## Other resources
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
