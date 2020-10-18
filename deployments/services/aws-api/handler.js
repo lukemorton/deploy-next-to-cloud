@@ -1,6 +1,6 @@
-import handleAwsHttpEventWithNextApi from '../../libs/handleAwsHttpEventWithNextApi';
+import { handleHTTP } from '../../libs/next-to-sls/aws';
 import helloApi from '../../../pages/api/hello';
 
 export const hello = async event => {
-  return handleAwsHttpEventWithNextApi(event, helloApi);
+  return handleHTTP(event, helloApi);
 };

@@ -1,6 +1,6 @@
-import handleGcpHttpEventWithNextApi from '../../libs/handleGcpHttpEventWithNextApi';
+import { handleHTTP } from '../../libs/next-to-sls/gcp';
 import helloApi from '../../../pages/api/hello';
 
 export const hello = async (request, response) => {
-  handleGcpHttpEventWithNextApi(request, response, helloApi);
+  handleHTTP(request, response, helloApi);
 };

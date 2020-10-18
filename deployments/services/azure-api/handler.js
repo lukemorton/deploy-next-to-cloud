@@ -1,6 +1,6 @@
-import handleAzureHttpEventWithNextApi from '../../libs/handleAzureHttpEventWithNextApi';
+import { handleHTTP } from '../../libs/next-to-sls/azure';
 import helloApi from '../../../pages/api/hello';
 
 export const sayHello = async (context, req) => {
-  return handleAzureHttpEventWithNextApi(context, req, helloApi);
+  return handleHTTP(context, req, helloApi);
 };
