@@ -24,5 +24,6 @@ This means in development, you can just use Next.js with /pages/api out of the b
 
 ## Productionising this example
 
+- Add deployment for main Next.js app with static assets (`next export`) or by running an instance of the app (`next start`)
 - Smoke testing against each cloud platform via CI
 - Ensure full compatibility for [Next Replica Request and Response](libs/next-to-sls/next-replicas) objects (currently incomplete and not fully tested)
